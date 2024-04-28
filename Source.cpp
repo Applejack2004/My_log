@@ -1,7 +1,11 @@
 ﻿#include <stdio.h>
-#include <iostream>
-#include <fstream>
+#include <cmath>
 #include <random>
+#include <vector>
+
+#include <iostream>
+#include <riscv-vector.h>
+
 vfloat32m4_t my_log0(vfloat32m4_t x, int vl)
 {
 
